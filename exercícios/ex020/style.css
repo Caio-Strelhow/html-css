@@ -1,0 +1,10 @@
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: darkblue;
+    background-color: rgba(145, 145, 145, 0.404);
+    border: 1px solid black;
+}

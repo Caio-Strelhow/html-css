@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px 200px 20px;
+    background-color: lightblue;
+    font-family:'Franklin Gothic Medium';
+}
+h1{
+    background-color: lightcoral;
+    color: rgb(55, 58, 58);
+}
+h2{
+    color: maroon;
+}
+p{
+    text-align: justify;
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+div > p{
+    display: none;    
+}
+
+div:hover{
+    color: rgb(255, 0, 0);
+}
+
+div:hover > p{
+    color: white;
+    padding: 10px;
+    border: 10px ridge grey;
+    border-radius: 10px;
+    display: block;
+    background-color:rgb(24, 24, 27);
+    width: 300px;
+}
