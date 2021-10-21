@@ -92,11 +92,15 @@ h3{
     margin:15px;
 }
 p{
+    margin: 10px 0px 10px 0px;
     font-family: 'Work Sans', sans-serif;
     text-align: justify;
     font-size: 1.1em;
     text-indent: 10px;
     line-height: 1.5em;
+}
+abbr{
+    text-decoration: underline;
 }
 article{
     list-style-position: inside;
