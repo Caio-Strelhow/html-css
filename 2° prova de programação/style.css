@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("download.jpg");
+}
+header{
+    padding: 7px;
+    background-color: purple;
+    text-align: center;
+}
+main{
+    padding: 20px;
+    background-color: whitesmoke;
+    max-width: 700px;
+    margin: auto;
+}

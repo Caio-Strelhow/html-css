@@ -2,17 +2,100 @@
     margin: 0px;
     padding: 0px;
 }
+:root{
+    --cor01:#5A1C5C;
+    --cor02:#59005C;
+    --cor03:#DC44E1;
+    --cor04:#D400DB;
+    --cor05:#A300A8;
+    --cor06:rgb(223,223,223);
+}
 body {
     background-image: url("fundo.jpg.jpg");
+    background-repeat: initial;
 }
 header { 
-    padding: 7px;
-    background-color: purple;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, var(--cor02), black);
     text-align: center;
 }
 main{
+    box-shadow: 7px 7px 10px black;
     padding: 20px;
-    background-color: whitesmoke;
+    background-image:linear-gradient(to right,  var(--cor01), var(--cor03));
     max-width: 700px;
     margin: auto;
+    margin-top: 10px;
+}
+p{
+    margin: auto;
+    max-width: 700px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+h1{
+    color:var(--cor06);
+    text-shadow: 2px 2px 2px black;
+}
+
+h2{
+    border-style: solid;
+    border-radius: 7px;
+    text-align: center;
+    padding: 5px;
+    margin: 8px;
+    color: var(--cor06);
+    text-shadow: 1px 1px 1px black;
+    background-color: var(--cor04);
+}
+h3{
+    text-shadow: 1px 1px 1px black;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    margin:-8px -8px 10px -8px;
+    color: white;
+    background-color: rgb(31, 0, 39);
+}
+ul{
+    box-shadow: 5px 5px 10px black;
+    list-style: '\1F383\0020\0020';
+    border-radius: 10px 10px 0px 0px;
+    list-style-position: inside;
+    margin: 10px;
+    padding: 8px;
+    background-color: rgb(79, 4, 102);
+}
+img{
+    border-radius: 20px;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+li{
+    color: var(--cor03);
+    margin-top: 10px;
+}
+#negrito{
+    font-weight: bold;
+}
+a{
+    border-radius: 7px;
+    color: var(--cor06);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    background-color: var(--cor02);
+}
+a:hover{
+    color:var(--cor01);
+    background-color: var(--cor03);
+    text-decoration: underline;
+}
+.instruções{
+    color: whitesmoke;
+    font-weight: bold;
 }
